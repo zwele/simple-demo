@@ -1,4 +1,4 @@
-package com.zwh.utils;
+package com.operate.utils;
 
 
 import java.time.LocalDate;
@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
-public class NewTimeUtils {
+public class TimeUtils {
 
     public static final DateTimeFormatter YEAR_MONTH_DAY = DateTimeFormatter.ofPattern("yyyy年M月d日");
     public static final DateTimeFormatter MONTH_DAY = DateTimeFormatter.ofPattern("M月d日");
